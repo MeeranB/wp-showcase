@@ -107,12 +107,14 @@
 
 						</div><!-- .entry-header-inner -->
 
-						
 					</header><!-- .entry-header -->
 
-					
 				</div><!-- .cover-header-inner -->
-				
+
+			<div class="section-inner medium gallery-links">
+				<?php echo do_shortcode('[iheu_ultimate_oxi  id="1"]'); ?>
+			</div>	
+
 			<a href="#post-inner" class="to-the-content fill-children-current-color">
 					<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
 					<div class="screen-reader-text"><?php _e( 'Scroll Down', 'twentytwenty' ); ?></div>
